@@ -1,0 +1,10 @@
+import EarthCanvas from "./Earth";
+import BallCanvas from "./Ball";
+import ComputersCanvas from "./Computers";
+import PrinterCanvas from "./Printer";
+import StarsCanvas from "./Stars";
+import HeadphoneCanvas from "./Headphones";
+import KeyboardCanvas from "./Keyboard";
+import RaspberryCanvas from "./Raspberry";
+import PhoneCanvas from "./Phone";
+export { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas, PrinterCanvas, HeadphoneCanvas, KeyboardCanvas, RaspberryCanvas, PhoneCanvas };
