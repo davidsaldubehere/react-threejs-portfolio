@@ -5,28 +5,6 @@ import { ComputersCanvas } from "./canvas";
 import {PrinterCanvas } from "./canvas";
 
 const Hero = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
-
-    // Set the initial value of the `isMobile` state variable
-    setIsMobile(mediaQuery.matches);
-
-    // Define a callback function to handle changes to the media query
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
-    };
-
-    // Add the callback function as a listener for changes to the media query
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
-
-    // Remove the listener when the component is unmounted
-    return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
-    };
-  }, []);
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -42,17 +20,16 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>David</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a computer science and mathematics student<br className='sm:block hidden' />
-            at The Pennsylvania State University
+            I am a computer science and mathematics student <br className='sm:block hidden' />
+             at The Pennsylvania State University
           </p>
-          <p className="italic">Objects are interactable</p>
         </div>
       </div>
       <div className='absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5'>
-      <PrinterCanvas />
-      {!isMobile &&
-            <ComputersCanvas />
 
+      <PrinterCanvas />
+      {window.innerWidth > 1000 &&
+            <ComputersCanvas />
       }
       </div>
 

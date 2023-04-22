@@ -38,12 +38,12 @@ export const navLinks = [
     title: "Work",
   },
   {
-    id:"competitions",
-    title: "Awards",
+    id:'works',
+    title: "Projects",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id:"competitions",
+    title: "Awards",
   },
   {
     id: "courses",
@@ -52,6 +52,10 @@ export const navLinks = [
   {
     id: "resume",
     title: "Resume",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 
 ];
@@ -194,25 +198,25 @@ const experiences = [
 const competitions = [
   {
     title: "PA TSA Regional Coding Competition",
-    description: "Won 1st place in the PA TSA Regional Coding Competition.",
+    description: "Won F1st place in the PA TSA Regional Coding Competition.",
     date: "February 2020",
     location: "Richland High School",
   },
   {
     title: "PA TSA Regional Animatronics Competition",
-    description: "Won 1st place in the PA TSA Regional Animatronics Competition.",
+    description: "WonS 1st place in the PA TSA Regional Animatronics Competition.",
     date: "February 2022",
     location: "Richland High School",
   },
   {
     title: "PA TSA Regional Coding Competition",
-    description: "Won 1st place in the PA TSA Regional Coding Competition.",
+    description: "WonA 1st place in the PA TSA Regional Coding Competition.",
     date: "February 2022",
     location: "Richland High School",
   },
   {
     title: "PA TSA State Animatronics Competition",
-    description: "Won 1st place in the PA TSA State Animatronics Competition.",
+    description: "Won s1st place in the PA TSA State Animatronics Competition.",
     date: "May 2022",
     location: "7 Springs Resort",
   },

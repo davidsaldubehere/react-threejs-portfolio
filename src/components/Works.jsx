@@ -13,6 +13,7 @@ import  RaspberryCanvas  from "./canvas/Raspberry";
 import  PhoneCanvas  from "./canvas/Phone";
 import {AiOutlineProject} from "react-icons/ai"
 import { IconContext } from "react-icons";
+import { useState, useEffect } from "react";
 const ProjectCard = ({
   index,
   name,
@@ -66,27 +67,33 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
+      {asset == "headphones" && window.innerWidth > 1000 &&
       <div className = "h-[400px]">
-      {asset == "headphones" &&
         <HeadphoneCanvas />
-      }
-      {asset == "keyboard" &&
-        <KeyboardCanvas/>
-      }
-      {asset == "raspberry" &&
-        <RaspberryCanvas />
-      }
-      {asset == "phone" &&
-        <PhoneCanvas />
-      }
       </div>
+      }
+      {asset == "keyboard" &&  window.innerWidth > 1000 &&
+      <div className = "h-[400px]">
+        <KeyboardCanvas/>
+      </div>
+      }
+      {asset == "raspberry" &&  window.innerWidth > 1000 &&
+      <div className = "h-[400px]">
+        <RaspberryCanvas />
+      </div>
+      }
+      {asset == "phone" &&  window.innerWidth > 1000 &&
+      <div className = "h-[400px]">
+        <PhoneCanvas />
+      </div>
+      }
     </motion.div>
   );
 };
 
 const Works = () => {
   return (
-    <>
+    <div className="w-full">
       <motion.div variants={textVariant()}>
       <h2 className={styles.sectionHeadText} style={{ display: 'inline-block' }}>
           Projects
@@ -114,8 +121,8 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "works");
