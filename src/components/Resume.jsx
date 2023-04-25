@@ -15,12 +15,12 @@ const Resume = () => {
         <div className="text-center">
         <motion.div variants={textVariant()}>
         <h2 className={styles.sectionHeadText} style={{ display: 'inline-block', textAlign: 'center' }}>
-          Resume
+        Résumé
         </h2>
         <IconContext.Provider value={{ style: { display: 'inline-block', verticalAlign: 'middle', marginBottom: '30px', fontSize:'50px', marginLeft: '20px', color: 'white' } }}>
           <AiOutlinePaperClip />
         </IconContext.Provider>
-        <p className="mb-10 italic">Click Below for a pdf copy</p>
+        <p className="mb-10 italic">Click below for a pdf copy</p>
       </motion.div>
         <motion.div variants={slideIn("left", "tween", 0.2, 1)}>
             <img src={resume}

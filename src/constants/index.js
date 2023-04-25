@@ -51,7 +51,7 @@ export const navLinks = [
   },
   {
     id: "resume",
-    title: "Resume",
+    title: "Résumé",
   },
   {
     id: "contact",
@@ -77,7 +77,7 @@ const services = [
     link: "https://sites.psu.edu/3dprintingclub/"
   },
   {
-    title: "Something else",
+    title: "Website Development Club",
     icon: creator,
   },
 ];
@@ -167,7 +167,7 @@ const experiences = [
   },
   {
     title: "Sheetz Programming Intern",
-    company_name: "Shopify",
+    company_name: "Sheetz",
     icon: sheetz,
     iconBg: "#FFFFFF",
     date: "May 2023 - August 2023",
@@ -190,7 +190,7 @@ const experiences = [
       "Will be working on a project to help improve the management of laboratory equipment at Penn State.",
       "Project will be using C# and Microsoft Server database technologies.",
       "Will be working with a team of other interns to complete the project.",
-      "Will be visiting labs to learn more about the equipment and the processes used to manage it.",
+      "Will be visiting labs to learn more about the equipment and the software used to manage it.",
     ],
   },
 ];
@@ -198,37 +198,37 @@ const experiences = [
 const competitions = [
   {
     title: "PA TSA Regional Coding Competition",
-    description: "Won F1st place in the PA TSA Regional Coding Competition.",
+    description: "I won 1st place in the PA TSA Regional Coding Competition for my antenna controller interface application.",
     date: "February 2020",
     location: "Richland High School",
   },
   {
     title: "PA TSA Regional Animatronics Competition",
-    description: "WonS 1st place in the PA TSA Regional Animatronics Competition.",
+    description: "I won 1st place in the PA TSA Regional Animatronics Competition for my fantasy animatronic display.",
     date: "February 2022",
     location: "Richland High School",
   },
   {
     title: "PA TSA Regional Coding Competition",
-    description: "WonA 1st place in the PA TSA Regional Coding Competition.",
+    description: "I won 1st place in the PA TSA Regional Coding Competition for my Pig Latin translator application.",
     date: "February 2022",
     location: "Richland High School",
   },
   {
     title: "PA TSA State Animatronics Competition",
-    description: "Won s1st place in the PA TSA State Animatronics Competition.",
+    description: "I won 1st place in the PA TSA State Animatronics Competition for my improved fantasy animatronic display.",
     date: "May 2022",
     location: "7 Springs Resort",
   },
   {
     title: "PA TSA State Coding Competition",
-    description: "Won 5th place in the PA TSA State Coding Competition.",
+    description: "I won 5th place in the PA TSA State Coding Competition which included a timed algorithmic problem-solving test.",
     date: "May 2022",
     location: "7 Springs Resort",
   }, 
   {
     title: "Margaret C Miller Scholarship Recipient",
-    description: "aklsdjfkl asdflkajsdlf asdlkfj asd lflkdsfj lsdjflsd flksdj f lsdjfl",
+    description: "I was awarded the Margaret C Miller Scholarship for my high school achievements and my future plans to pursue a career in computer science.",
     date: "June 2022",
     location: "Mifflin County High School",
   }, 
@@ -236,55 +236,55 @@ const competitions = [
 const coursework = [
   {
     title: "CMPSC 131: Programming and Computation I",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    description: "This course introduces the fundamental concepts and processes of solving computational problems through the design, implementation, testing, and evaluation of efficient and robust computer programs. The concepts include basic computational constructs found in imperative, object-oriented, and functional programming languages such as iteration, conditionals, functions, recursion, and data types. ",
     date: "Fall 2021",
     location: "Penn State University",
   },
   {
     title: "CMPSC 132: Programming and Computation II",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    description: "This course builds upon the foundations of programming and computation by introducing and studying the data structures and programming language features that support the design and construction of large-scale software systems. It introduces the foundations of object-oriented programming, the design and analysis of efficient algorithms using important data structures, and programming techniques that support reusable and modular program components, including data abstraction, polymorphism, and higher-order functions.",
     date: "Fall 2021",
     location: "Penn State University",
   },
   {
     title: "CMPSC 221: Object Oriented Programming",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    description: "The course covers advanced object-oriented principles and their application to web-based, net-centric computing. Major topics include virtual machines, intermediate code generation (Java-specific), graphical user interfaces (GUI) design, event handling, server-side programming with database queries, security, permissions, and file management concepts for client/server systems.",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
     title: "CMPSC 360: Discrete Mathematics",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    description: "This course covers discrete mathematics and the foundations for modern computer science. Major topics include sets, relations, logic, algorithms, graphs, finite state machines, and regular expressions.",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
     title: "PHYS 211: General Physics: Mechanics",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    description: "This course covers a calculus-based introduction to classical mechanics, including such topics as measurement, dimensional analysis, motion in one dimension, vectors, motion in 2 and 3 dimensions, relative and circular motion, force and dynamics, Newton's Laws, friction, kinetic energy, work, potential energy, energy conservation, systems of particles, center of mass and momentum calculations, elastic and inelastic collisions, rotation (moments of inertia), rolling motion, torque, angular momentum, static equilibrium, gravitational force and Kepler's laws, gravitational potential energy, oscillations, waves (transverse and longitudinal, superposition of waves).",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
     title: "PHYS 212: Electricity and Magnetism",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    description: "This course covers a calculus-based introduction to classical electricity and magnetism, including such topics as, electric charge and electric fields, Gauss's law, electric potential, capacitance, current, resistance, and circuits, magnetic fields, and fields due to currents, induction and inductance, magnetism of matter, Maxwell's equations, and electromagnetic oscillations.",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
     title: "MATH 230: Calculus and Vector Analysis",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    description: "This course covers three-dimensional analytic geometry, vectors in space, partial differentiation, double and triple integrals, and integral vector calculus.",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
-    title: "MATH 220: Linear Algebra and Matrices",
-    description: "lorem ipsum dolor sit amet,   , incididunt ut=qua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    title: "MATH 220: Matrices",
+    description: "This course covers systems of linear equations, matrix algebra, eigenvalues and eigenvectors, and linear systems of differential equations.",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
     title: "MATH 414: Introduction to Probability Theory",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    description: "This course is an introduction to the theory of probability for students in statistics, mathematics, engineering, computer science, and related fields. The course presents students with calculus-based probability concepts, and those concepts can be used to describe the uncertainties present in real applications. Topics include probability spaces, discrete and continuous random variables, transformations, expectations, generating functions, conditional distributions, the law of large numbers, and central limit theorems.",
     date: "Spring 2022",
     location: "Penn State University",
   }
@@ -293,7 +293,7 @@ const projects = [
   {
     name: "Topian",
     description:
-      "Cross-platform free music streaming app developed with React Native, Flask, Various Python API’s. Currently at pre-release stage of development. React Native frontend optimized for iOS and Android. Backend deployed on pythonanywhere with Flask",
+      "I developed this free music streaming app with React Native, Flask, and various Python APIs. The React Native front-end is optimized for iOS and Android, and the back-end was deployed on Pythonanywhere's servers with Flask. The app is still being developed and is not yet available on the App Store.",
     tags: [
       {
         name: "reactnative",
@@ -315,7 +315,7 @@ const projects = [
   {
     name: "AutoTyper",
     description:
-      "Desktop application designed to assist in coding tutorials, classes, and my LA office hours. Prewritten scripts can be customized and automatically typed into a specified area to aid in instruction. Developed in Python, HTML5, CSS, JavaScript, and packaged with pyinstaller.",
+      "This desktop application was designed to assist in coding tutorials, classes, and my LA office hours. Prewritten scripts can be customized and automatically typed into a specified area to provide a seamless mode of instruction. I developed the front-end with HTML5, CSS, and JavaScript, and I used Python to create the back-end. The application was packaged with Pyinstaller, and the release for Windows is available for download on my GitHub.",
     tags: [
       {
         name: "python",
@@ -337,7 +337,7 @@ const projects = [
   {
     name: "VR Cam",
     description:
-      "Robotic arm with camera module controlled by user's head movement. Uses a Flask server and Open CV4 deployed on a Raspberry Pi to provide a real-time image to a VR headset. Gyroscope activity is sent to the robotic arm controlled by an Arduino with C++ and used to move the camera module.",
+      "I created a robotic arm with an attached camera module that can be controlled by a user's head movement. To accomplish this, I used a Flask server deployed on a Raspberry Pi server in combination with a VR application that would send gyroscope activity to an Arduino that controlled the robotic arm. The Raspberry Pi would then send a real-time image back to the VR application using Open CV4 and the Flask server to complete the cycle.",
     tags: [
       {
         name: "microcontrollers",
@@ -359,7 +359,7 @@ const projects = [
   {
     name: "3D Printing Club Mobile App",
     description:
-      "Robotic arm with camera module controlled by user's head movement. Uses a Flask server and Open CV4 deployed on a Raspberry Pi to provide a real-time image to a VR headset. Gyroscope activity is sent to the robotic arm controlled by an Arduino with C++ and used to move the camera module.",
+      "This is my most recent project. I have been developing a mobile application for the Penn State 3D Printing Club to manage their 3D printing services and communicate with members. The app is being developed with React Native, and the back-end is being developed with Django and MySQL. I plan to introduce the app to the club in the Fall of 2023.",
     tags: [
       {
         name: "reactnative",

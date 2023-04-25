@@ -12,7 +12,7 @@ const Course = ({
 }) => (
   <motion.div
     variants={fadeIn("", "spring", 0.5, 0.75)}
-    className='bg-[#1d1836] p-10 rounded-3xl xs:w-[400px] xs:h-[500px] w-full mb-10'
+    className='bg-[#1d1836] p-10 rounded-3xl xs:w-[400px] xs:h-full w-full mb-10'
   >
     <p className='text-white font-black text-[20px]'>{course.title}</p>
 
