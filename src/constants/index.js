@@ -76,10 +76,6 @@ const services = [
     icon: psu3d,
     link: "https://sites.psu.edu/3dprintingclub/"
   },
-  {
-    title: "Website Development Club",
-    icon: creator,
-  },
 ];
 
 const technologies = [
@@ -147,7 +143,7 @@ const experiences = [
     points: [
       "Maintained current knowledge of shelf planograms and end caps to merchandise products.",
       "Received and unloaded new items upon delivery and checked products for damage and order accuracy.",
-      "Helped customers complete purchases by moving heavy items, collecting payments and bagging items.",
+      "Helped customers complete purchases by moving heavy items, collecting payments, and bagging items.",
       "Managed a safe, neat, and clean working environment and closely monitored for wet floors or other hazards.",
     ],
   },
@@ -260,13 +256,13 @@ const coursework = [
   },
   {
     title: "PHYS 211: General Physics: Mechanics",
-    description: "This course covers a calculus-based introduction to classical mechanics, including such topics as measurement, dimensional analysis, motion in one dimension, vectors, motion in 2 and 3 dimensions, relative and circular motion, force and dynamics, Newton's Laws, friction, kinetic energy, work, potential energy, energy conservation, systems of particles, center of mass and momentum calculations, elastic and inelastic collisions, rotation (moments of inertia), rolling motion, torque, angular momentum, static equilibrium, gravitational force and Kepler's laws, gravitational potential energy, oscillations, waves (transverse and longitudinal, superposition of waves).",
+    description: "This course covers a calculus-based introduction to classical mechanics, including such topics as measurement, dimensional analysis, motion in one dimension, vectors, motion in 2 and 3 dimensions, relative and circular motion, force and dynamics, Newton's Laws, friction, kinetic energy, work, potential energy, energy conservation, systems of particles, center of mass and momentum calculations, elastic and inelastic collisions, rotation (moments of inertia), rolling motion, torque, angular momentum, static equilibrium, gravitational force and Kepler's laws, gravitational potential energy, oscillations, and waves (transverse and longitudinal, superposition of waves).",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
     title: "PHYS 212: Electricity and Magnetism",
-    description: "This course covers a calculus-based introduction to classical electricity and magnetism, including such topics as, electric charge and electric fields, Gauss's law, electric potential, capacitance, current, resistance, and circuits, magnetic fields, and fields due to currents, induction and inductance, magnetism of matter, Maxwell's equations, and electromagnetic oscillations.",
+    description: "This course covers a calculus-based introduction to classical electricity and magnetism, including such topics as, electric charge and electric fields, Gauss's law, electric potential, capacitance, current, resistance, circuits, magnetic fields, fields due to currents, induction and inductance, magnetism of matter, Maxwell's equations, and electromagnetic oscillations.",
     date: "Spring 2022",
     location: "Penn State University",
   },

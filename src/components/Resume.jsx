@@ -9,7 +9,7 @@ import { AiOutlinePaperClip } from "react-icons/ai";
 import { IconContext } from "react-icons";
 import {resume } from "../assets";
 import { slideIn } from "../utils/motion";
-
+import {Resume as ResumePDF } from "../assets";
 const Resume = () => {
     return (
         <div className="text-center">
@@ -24,7 +24,7 @@ const Resume = () => {
       </motion.div>
         <motion.div variants={slideIn("left", "tween", 0.2, 1)}>
             <img src={resume}
-            onClick={() => window.open("https://drive.google.com/file/d/1fqiihUTOC-gQpeFqEha06wmM7jdiCaSA/view?usp=share_link", "_blank")}
+            onClick={() => window.open(ResumePDF, "_blank")}
             className="cursor-pointer"
             style={{ 
 

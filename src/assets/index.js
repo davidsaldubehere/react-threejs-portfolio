@@ -32,6 +32,7 @@ import tripguide from "./tripguide.png";
 import app from "./app.png";
 import profile from "./profile.jpeg";
 import resume from "./resume.png";
+import Resume from "./Resume.pdf";
 export {
   vrcam,
   topian,
@@ -67,4 +68,5 @@ export {
   app,
   profile,
   resume,
+  Resume
 };
