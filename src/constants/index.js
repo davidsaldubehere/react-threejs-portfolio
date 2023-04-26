@@ -333,7 +333,7 @@ const projects = [
   {
     name: "VR Cam",
     description:
-      "I created a robotic arm with an attached camera module that can be controlled by a user's head movement. To accomplish this, I used a Flask server deployed on a Raspberry Pi server in combination with a VR application that would send gyroscope activity to an Arduino that controlled the robotic arm. The Raspberry Pi would then send a real-time image back to the VR application using Open CV4 and the Flask server to complete the cycle.",
+      "I created a robotic arm with an attached camera module that can be controlled by a user's head movement. To accomplish this, I used a Flask server deployed on a Raspberry Pi in combination with a VR application that would send gyroscope activity to an Arduino that controlled the robotic arm. The Raspberry Pi would then send a real-time image back to the VR application using Open CV4 and the Flask server to complete the cycle.",
     tags: [
       {
         name: "microcontrollers",
