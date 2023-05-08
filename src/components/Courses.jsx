@@ -47,7 +47,7 @@ const Courses = () => {
         <IconContext.Provider value={{ style: { display: 'inline-block', verticalAlign: 'middle', marginBottom: '30px', fontSize:'50px', marginLeft: '20px', color: 'white' } }}>
           <AiOutlinePaperClip />
         </IconContext.Provider>
-        <p className="italic">Hover Over Courses</p>
+        <p className="italic">Click On Courses</p>
       </motion.div>
 
       </div>
@@ -55,7 +55,7 @@ const Courses = () => {
         <Course course={coursework[courses]}  />
         <div className= "mb-20 flex flex-col gap-7">
           {coursework.map((course, index) => (
-              <div className={index == courses ? "bg-[#1d1836] cursor-pointer rounded-lg p-4 text-2xl color: rgb(0 0 0)": "bg-[#FFFFF] cursor-pointer rounded-lg p-4 text-2xl color: rgb(0 0 0)"} key = {index} onMouseEnter={() => setCourses(index)}>{course.title}</div>
+              <div className={index == courses ? "bg-[#1d1836] cursor-pointer rounded-lg p-4 text-2xl color: rgb(0 0 0)": "bg-[#FFFFF] cursor-pointer rounded-lg p-4 text-2xl color: rgb(0 0 0)"} key = {index} onClick={() => setCourses(index)}>{course.title}</div>
           ))}
         </div>
       </div>
