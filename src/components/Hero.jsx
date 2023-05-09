@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { fadeIn, textVariant } from "../utils/motion";
 import { useState, useEffect } from "react";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -16,13 +17,21 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <motion.h1
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 2 }}
+                className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>David.</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          </motion.h1>
+          <motion.p
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 2 }}
+                className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a computer science and mathematics student <br className='sm:block hidden' />
              at The Pennsylvania State University
-          </p>
+        </motion.p>
         </div>
       </div>
       <div className='absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5'>
