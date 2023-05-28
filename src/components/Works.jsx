@@ -68,22 +68,22 @@ const ProjectCard = ({
         </div>
       </Tilt>
       {asset == "headphones" && window.innerWidth > 1000 &&
-      <div className = "h-[400px]">
+      <div className = "h-[400px]  hover:cursor-pointer">
         <HeadphoneCanvas />
       </div>
       }
       {asset == "keyboard" &&  window.innerWidth > 1000 &&
-      <div className = "h-[400px]">
+      <div className = "h-[400px] hover:cursor-pointer">
         <KeyboardCanvas/>
       </div>
       }
       {asset == "raspberry" &&  window.innerWidth > 1000 &&
-      <div className = "h-[400px]">
+      <div className = "h-[400px] hover:cursor-pointer">
         <RaspberryCanvas />
       </div>
       }
       {asset == "phone" &&  window.innerWidth > 1000 &&
-      <div className = "h-[400px]">
+      <div className = "h-[400px] hover:cursor-pointer">
         <PhoneCanvas />
       </div>
       }

@@ -34,7 +34,7 @@ const Hero = () => {
         </motion.p>
         </div>
       </div>
-      <div className='absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5'>
+      <div className='absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5 hover:cursor-pointer'>
 
       <PrinterCanvas />
       {window.innerWidth > 1000 &&
