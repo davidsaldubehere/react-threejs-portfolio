@@ -34,7 +34,6 @@ const Phone = () => {
 const PhoneCanvas = () => {
   return (
     <Canvas
-        style={{maxWidth: '90%'}}
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 0, 0], fov: 25 }}
@@ -47,7 +46,6 @@ const PhoneCanvas = () => {
         <Phone/>
       </Suspense>
 
-      <Preload all />
     </Canvas>
   );
 };

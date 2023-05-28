@@ -34,7 +34,6 @@ const Headphones = () => {
 const HeadphoneCanvas = () => {
   return (
     <Canvas
-      style={{maxWidth: '90%'}}
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
@@ -47,7 +46,6 @@ const HeadphoneCanvas = () => {
         <Headphones/>
       </Suspense>
 
-      <Preload all />
     </Canvas>
   );
 };

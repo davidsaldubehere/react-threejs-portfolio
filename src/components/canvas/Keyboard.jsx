@@ -22,7 +22,7 @@ const Keyboard = () => {
     
       <primitive
         object={keyboard.scene}
-        scale={0.4}
+        scale={0.3}
         position={[0, 0, 0]}
         rotation={[1.5,0,-1]}
       />
@@ -34,7 +34,6 @@ const Keyboard = () => {
 const KeyboardCanvas = () => {
   return (
     <Canvas
-      style={{maxWidth: '90%'}}
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 0, 0], fov: 25 }}
@@ -47,7 +46,6 @@ const KeyboardCanvas = () => {
         <Keyboard/>
       </Suspense>
 
-      <Preload all />
     </Canvas>
   );
 };
