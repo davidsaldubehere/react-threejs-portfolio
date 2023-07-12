@@ -94,7 +94,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <div className="w-full">
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} >
       <h2 className={styles.sectionHeadText} style={{ display: 'inline-block' }}>
           Projects
         </h2>

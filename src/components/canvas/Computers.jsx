@@ -5,7 +5,7 @@ import { OrbitControls, Preload, useGLTF, Float } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = () => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./macbook_pro_2021/scene.gltf");
 
   return (
     <Float speed={1.75} rotationIntensity={.5} floatIntensity={.5}>
@@ -22,9 +22,9 @@ const Computers = () => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={0.4}
-        position={[0, -3.25, -.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        scale={8}
+        position={[0, -3, 0]}
+        rotation={[0, 3, 0]}
       />
     </mesh>
   </Float>
@@ -36,7 +36,7 @@ const ComputersCanvas = () => {
     <Canvas
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [20, 0, 0], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
