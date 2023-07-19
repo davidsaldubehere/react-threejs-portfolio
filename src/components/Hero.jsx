@@ -36,14 +36,11 @@ const Hero = () => {
       </div>
       <div className='absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row gap-5 hover:cursor-pointer'>
 
-      <PrinterCanvas />
+      <ComputersCanvas />
       {window.innerWidth > 1000 &&
-            <ComputersCanvas />
+            <PrinterCanvas />
       }
       </div>
-
-      
-
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
