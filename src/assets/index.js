@@ -33,7 +33,11 @@ import app from "./app.png";
 import profile from "./profile.jpeg";
 import resume from "./resume.png";
 import Resume from "./Resume.pdf";
+import psuwebdevclub from "./psuwebdevclub.jpeg";
+import langaginglab from "./langaginglab.png";
 export {
+  langaginglab,
+  psuwebdevclub,
   vrcam,
   topian,
   autotyper,

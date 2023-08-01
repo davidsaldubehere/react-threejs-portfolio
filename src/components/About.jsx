@@ -50,7 +50,7 @@ const About = () => {
       <div className="flex md:flex-row flex-col gap-20 justify-center">
       I am a Schreyer Scholar at Penn State majoring in computer science and mathematics with a specialization in computational mathematics.
       Currently, I work for Penn State's Computer Science Department as a grader for the CMPSC 132 Data Structures and Algorithms course. I am also an avid 3D printing hobbyist and hold the position of treasurer in the Penn State 3D Printing Club.
-      In addition, I am founding a website development club which will be active by the Fall of 2023.
+      In addition, I am the founder and president of the psu website development club which focuses on providing the resources and instruction to build members' website development skills.
       After graduation, I hope to work as a software engineer at a company where I can continue to learn and grow. Please feel free to view my other online profiles below.
       <img
           src={profile}

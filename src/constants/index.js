@@ -25,7 +25,9 @@ import {
   topian,
   vrcam,
   autotyper,
-  app
+  psuwebdevclub,
+  app,
+  langaginglab,
 } from "../assets";
 
 export const navLinks = [
@@ -76,6 +78,11 @@ const services = [
     icon: psu3d,
     link: "https://sites.psu.edu/3dprintingclub/"
   },
+  {
+    title: "Website Development Club",
+    icon: psuwebdevclub,
+    link: "https://psuwebdevclub.netlify.app/"
+  }
 ];
 
 const technologies = [
@@ -135,18 +142,47 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Produce Associate",
-    company_name: "Walmart",
-    icon: walmart,
+    title: "Statistical Analysis Intern",
+    company_name: "Penn State Language and Aging Lab",
+    icon: langaginglab,
     iconBg: "#FFFFFF",
-    date: "June 2021 - April 2023",
+    date: "June 2023 - Present",
     points: [
-      "Maintained current knowledge of shelf planograms and end caps to merchandise products.",
-      "Received and unloaded new items upon delivery and checked products for damage and order accuracy.",
-      "Helped customers complete purchases by moving heavy items, collecting payments, and bagging items.",
-      "Managed a safe, neat, and clean working environment and closely monitored for wet floors or other hazards.",
+      "Lab assistant at Penn State's Language and Aging Lab.",
+      "Will be parsing and analyzing MRI data using R to present conclusions for various studies.",
+      "Will be heavily utilizing network science to gain an understanding of the brain's functional connectivity.",
+      "Will be directly involved in the research process up to the publication of the study's findings.",
     ],
   },
+  {
+    title: "Software Engineering Intern",
+    company_name: "Penn State Office of Research Information Systems",
+    icon: psu,
+    iconBg: "#FFFFFF",
+    date: "May 2023 - Present",
+    points: [
+      "Software engineering intern at Penn State's Office of Research Information Systems.",
+      "Worked on a project to help improve the efficiency and flexibility of existing software used to manage all Penn State research labs.",
+      "Gained valuable experience with C# and Microsoft Server database technologies.",
+      "Visited labs to learn more about the equipment and the software used to manage it.",
+    ],
+  },
+  {
+    title: "Sheetz Programming Intern",
+    company_name: "Sheetz",
+    icon: sheetz,
+    iconBg: "#FFFFFF",
+    date: "May 2023 - Present",
+    points: [
+      "Applications and Development intern at Sheetz.",
+      "Worked on a project to help monitor competitor pricing of various products.",
+      "Project is now in production and is being used by 900+ corporate and store employees.",
+      "Worked with a team of other interns and senior developers to complete the project.",
+      "Gained valuable experience with the Agile development process and technologies such as OpenShift, Java, Spring Boot, and various front-end technologies.",
+      "Attended networking events to learn more about the company and the industry.", 
+    ],
+  },
+
   {
     title: "PSU CMPSC 132 Course Grader",
     company_name: "The Pennsylvania State University Computer Science Department",
@@ -162,33 +198,19 @@ const experiences = [
     ],
   },
   {
-    title: "Sheetz Programming Intern",
-    company_name: "Sheetz",
-    icon: sheetz,
+    title: "Produce Associate",
+    company_name: "Walmart",
+    icon: walmart,
     iconBg: "#FFFFFF",
-    date: "May 2023 - August 2023",
+    date: "June 2021 - April 2023",
     points: [
-      "Upcoming programming intern at Sheetz.",
-      "Will be working on a project to help improve the customer experience at Sheetz.",
-      "Project will be using Java and SQL database technologies.",
-      "Will be working with a team of other interns to complete the project.",
-      "Will be attending networking events to learn more about the company and the industry.", 
+      "Maintained current knowledge of shelf planograms and end caps to merchandise products.",
+      "Received and unloaded new items upon delivery and checked products for damage and order accuracy.",
+      "Helped customers complete purchases by moving heavy items, collecting payments, and bagging items.",
+      "Managed a safe, neat, and clean working environment and closely monitored for wet floors or other hazards.",
     ],
   },
-  {
-    title: "Software Engineering Intern",
-    company_name: "Penn State Office of Research Information Systems",
-    icon: psu,
-    iconBg: "#FFFFFF",
-    date: "May 2023 - August 2023",
-    points: [
-      "Upcoming software engineering intern at Penn State's Office of Research Information Systems.",
-      "Will be working on a project to help improve the management of laboratory equipment at Penn State.",
-      "Project will be using C# and Microsoft Server database technologies.",
-      "Will be working with a team of other interns to complete the project.",
-      "Will be visiting labs to learn more about the equipment and the software used to manage it.",
-    ],
-  },
+
 ];
 
 const competitions = [
@@ -305,7 +327,7 @@ const projects = [
       },
     ],
     image: topian,
-    source_code_link: "https://github.com/davidsaldubehere/topianServer",
+    source_code_link: "https://github.com/davidsaldubehere/topian/",
     asset: "headphones"
   },
   {
