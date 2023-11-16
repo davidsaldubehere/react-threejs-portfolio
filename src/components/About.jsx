@@ -48,10 +48,9 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] w-full leading-[30px]'
       >
       <div className="flex md:flex-row flex-col gap-20 justify-center">
-      I am a Schreyer Scholar at Penn State majoring in computer science and mathematics with a specialization in computational mathematics.
-      Currently, I work for Penn State's Computer Science Department as a grader for the CMPSC 132 Data Structures and Algorithms course. I am also an avid 3D printing hobbyist and hold the position of treasurer in the Penn State 3D Printing Club.
-      In addition, I am the founder and president of the psu website development club which focuses on providing the resources and instruction to build members' website development skills.
-      After graduation, I hope to work as a software engineer at a company where I can continue to learn and grow. Please feel free to view my other online profiles below.
+      I am a Schreyer Scholar at Penn State majoring in computer science. Currently, I work as a software engineering intern for Sheetz with experience utilizing Red Hat's OpenShift platform to deploy industry grade Java Spring apps. I am also an avid 3D printing hobbyist and hold the position of treasurer in the Penn State 3D printing club where I teach lectures on C++ firmware programming.
+      In addition, I am the founder and president of the Penn State website development club which focuses on providing the resources and instruction to build members' website development skills. Thanks to Penn State funding, the club now has access to multiple servers and cloud hosting platforms for the member's to experiment with. The club has grown to 70 registered members since its creation in the Spring of 2023.
+      After graduation, I hope to work as a software engineer at a company where I can continue to learn new skills and grow as an engineer. 
       <img
           src={profile}
           alt="profile"

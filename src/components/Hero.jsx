@@ -29,7 +29,7 @@ const Hero = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 2 }}
                 className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a computer science and mathematics student <br className='sm:block hidden' />
+            I am a computer science student <br className='sm:block hidden' />
              at The Pennsylvania State University
         </motion.p>
         </div>
