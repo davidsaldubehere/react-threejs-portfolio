@@ -40,11 +40,11 @@ export const navLinks = [
     title: "Work",
   },
   {
-    id:'works',
+    id: "works",
     title: "Projects",
   },
   {
-    id:"competitions",
+    id: "competitions",
     title: "Awards",
   },
   {
@@ -59,7 +59,6 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-
 ];
 
 const services = [
@@ -71,18 +70,18 @@ const services = [
   {
     title: "GitHub",
     icon: github,
-    link: "https://github.com/davidsaldubehere"
+    link: "https://github.com/davidsaldubehere",
   },
   {
     title: "3D Printing Club",
     icon: psu3d,
-    link: "https://sites.psu.edu/3dprintingclub/"
+    link: "https://sites.psu.edu/3dprintingclub/",
   },
   {
     title: "Website Development Club",
     icon: psuwebdevclub,
-    link: "https://psuwebdevclub.netlify.app/"
-  }
+    link: "https://psuwebdevclub.netlify.app/",
+  },
 ];
 
 const technologies = [
@@ -179,13 +178,14 @@ const experiences = [
       "Project is now in production and is being used by 900+ corporate and store employees.",
       "Worked with a team of other interns and senior developers to complete the project.",
       "Gained valuable experience with the Agile development process and technologies such as OpenShift, Java, Spring Boot, and various front-end technologies.",
-      "Attended networking events to learn more about the company and the industry.", 
+      "Attended networking events to learn more about the company and the industry.",
     ],
   },
 
   {
     title: "PSU CMPSC 132 Course Grader",
-    company_name: "The Pennsylvania State University Computer Science Department",
+    company_name:
+      "The Pennsylvania State University Computer Science Department",
     icon: psu,
     iconBg: "#FFFFFF",
     date: "Jan 2023 - May 2023",
@@ -193,8 +193,7 @@ const experiences = [
       "Graded exams and homework submissions for Penn State's University Park CMPSC 132 course sections.",
       "Provided feedback to students on their exam and homework submissions.",
       "Debugged student submissions to help them understand the concepts of the course.",
-      "In the process of becoming a Learning Assistant for the course's summer session."
-      
+      "In the process of becoming a Learning Assistant for the course's summer session.",
     ],
   },
   {
@@ -210,102 +209,116 @@ const experiences = [
       "Managed a safe, neat, and clean working environment and closely monitored for wet floors or other hazards.",
     ],
   },
-
 ];
 
 const competitions = [
   {
     title: "PA TSA Regional Coding Competition",
-    description: "I won 1st place in the PA TSA Regional Coding Competition for my antenna controller interface application.",
+    description:
+      "I won 1st place in the PA TSA Regional Coding Competition for my antenna controller interface application.",
     date: "February 2020",
     location: "Richland High School",
   },
   {
     title: "PA TSA Regional Animatronics Competition",
-    description: "I won 1st place in the PA TSA Regional Animatronics Competition for my fantasy animatronic display.",
+    description:
+      "I won 1st place in the PA TSA Regional Animatronics Competition for my fantasy animatronic display.",
     date: "February 2022",
     location: "Richland High School",
   },
   {
     title: "PA TSA Regional Coding Competition",
-    description: "I won 1st place in the PA TSA Regional Coding Competition for my Pig Latin translator application.",
+    description:
+      "I won 1st place in the PA TSA Regional Coding Competition for my Pig Latin translator application.",
     date: "February 2022",
     location: "Richland High School",
   },
   {
     title: "PA TSA State Animatronics Competition",
-    description: "I won 1st place in the PA TSA State Animatronics Competition for my improved fantasy animatronic display.",
+    description:
+      "I won 1st place in the PA TSA State Animatronics Competition for my improved fantasy animatronic display.",
     date: "May 2022",
     location: "7 Springs Resort",
   },
   {
     title: "PA TSA State Coding Competition",
-    description: "I won 5th place in the PA TSA State Coding Competition which included a timed algorithmic problem-solving test.",
+    description:
+      "I won 5th place in the PA TSA State Coding Competition which included a timed algorithmic problem-solving test.",
     date: "May 2022",
     location: "7 Springs Resort",
-  }, 
+  },
   {
     title: "Margaret C Miller Scholarship Recipient",
-    description: "I was awarded the Margaret C Miller Scholarship for my high school achievements and my future plans to pursue a career in computer science.",
+    description:
+      "I was awarded the Margaret C Miller Scholarship for my high school achievements and my future plans to pursue a career in computer science.",
     date: "June 2022",
     location: "Mifflin County High School",
-  }, 
+  },
 ];
 const coursework = [
   {
     title: "CMPSC 131: Programming and Computation I",
-    description: "This course introduces the fundamental concepts and processes of solving computational problems through the design, implementation, testing, and evaluation of efficient and robust computer programs. The concepts include basic computational constructs found in imperative, object-oriented, and functional programming languages such as iteration, conditionals, functions, recursion, and data types. ",
+    description:
+      "This course introduces the fundamental concepts and processes of solving computational problems through the design, implementation, testing, and evaluation of efficient and robust computer programs. The concepts include basic computational constructs found in imperative, object-oriented, and functional programming languages such as iteration, conditionals, functions, recursion, and data types. ",
     date: "Fall 2021",
     location: "Penn State University",
   },
   {
     title: "CMPSC 132: Programming and Computation II",
-    description: "This course builds upon the foundations of programming and computation by introducing and studying the data structures and programming language features that support the design and construction of large-scale software systems. It introduces the foundations of object-oriented programming, the design and analysis of efficient algorithms using important data structures, and programming techniques that support reusable and modular program components, including data abstraction, polymorphism, and higher-order functions.",
+    description:
+      "This course builds upon the foundations of programming and computation by introducing and studying the data structures and programming language features that support the design and construction of large-scale software systems. It introduces the foundations of object-oriented programming, the design and analysis of efficient algorithms using important data structures, and programming techniques that support reusable and modular program components, including data abstraction, polymorphism, and higher-order functions.",
     date: "Fall 2021",
     location: "Penn State University",
   },
   {
     title: "CMPSC 221: Object Oriented Programming",
-    description: "The course covers advanced object-oriented principles and their application to web-based, net-centric computing. Major topics include virtual machines, intermediate code generation (Java-specific), graphical user interfaces (GUI) design, event handling, server-side programming with database queries, security, permissions, and file management concepts for client/server systems.",
+    description:
+      "The course covers advanced object-oriented principles and their application to web-based, net-centric computing. Major topics include virtual machines, intermediate code generation (Java-specific), graphical user interfaces (GUI) design, event handling, server-side programming with database queries, security, permissions, and file management concepts for client/server systems.",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
     title: "CMPSC 360: Discrete Mathematics",
-    description: "This course covers discrete mathematics and the foundations for modern computer science. Major topics include sets, relations, logic, algorithms, graphs, finite state machines, and regular expressions.",
+    description:
+      "This course covers discrete mathematics and the foundations for modern computer science. Major topics include sets, relations, logic, algorithms, graphs, finite state machines, and regular expressions.",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
     title: "PHYS 211: General Physics: Mechanics",
-    description: "This course covers a calculus-based introduction to classical mechanics, including such topics as measurement, dimensional analysis, motion in one dimension, vectors, motion in 2 and 3 dimensions, relative and circular motion, force and dynamics, Newton's Laws, friction, kinetic energy, work, potential energy, energy conservation, systems of particles, center of mass and momentum calculations, elastic and inelastic collisions, rotation (moments of inertia), rolling motion, torque, angular momentum, static equilibrium, gravitational force and Kepler's laws, gravitational potential energy, oscillations, and waves (transverse and longitudinal, superposition of waves).",
+    description:
+      "This course covers a calculus-based introduction to classical mechanics, including such topics as measurement, dimensional analysis, motion in one dimension, vectors, motion in 2 and 3 dimensions, relative and circular motion, force and dynamics, Newton's Laws, friction, kinetic energy, work, potential energy, energy conservation, systems of particles, center of mass and momentum calculations, elastic and inelastic collisions, rotation (moments of inertia), rolling motion, torque, angular momentum, static equilibrium, gravitational force and Kepler's laws, gravitational potential energy, oscillations, and waves (transverse and longitudinal, superposition of waves).",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
     title: "PHYS 212: Electricity and Magnetism",
-    description: "This course covers a calculus-based introduction to classical electricity and magnetism, including such topics as, electric charge and electric fields, Gauss's law, electric potential, capacitance, current, resistance, circuits, magnetic fields, fields due to currents, induction and inductance, magnetism of matter, Maxwell's equations, and electromagnetic oscillations.",
+    description:
+      "This course covers a calculus-based introduction to classical electricity and magnetism, including such topics as, electric charge and electric fields, Gauss's law, electric potential, capacitance, current, resistance, circuits, magnetic fields, fields due to currents, induction and inductance, magnetism of matter, Maxwell's equations, and electromagnetic oscillations.",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
     title: "MATH 230: Calculus and Vector Analysis",
-    description: "This course covers three-dimensional analytic geometry, vectors in space, partial differentiation, double and triple integrals, and integral vector calculus.",
+    description:
+      "This course covers three-dimensional analytic geometry, vectors in space, partial differentiation, double and triple integrals, and integral vector calculus.",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
     title: "MATH 220: Matrices",
-    description: "This course covers systems of linear equations, matrix algebra, eigenvalues and eigenvectors, and linear systems of differential equations.",
+    description:
+      "This course covers systems of linear equations, matrix algebra, eigenvalues and eigenvectors, and linear systems of differential equations.",
     date: "Spring 2022",
     location: "Penn State University",
   },
   {
     title: "MATH 414: Introduction to Probability Theory",
-    description: "This course is an introduction to the theory of probability for students in statistics, mathematics, engineering, computer science, and related fields. The course presents students with calculus-based probability concepts, and those concepts can be used to describe the uncertainties present in real applications. Topics include probability spaces, discrete and continuous random variables, transformations, expectations, generating functions, conditional distributions, the law of large numbers, and central limit theorems.",
+    description:
+      "This course is an introduction to the theory of probability for students in statistics, mathematics, engineering, computer science, and related fields. The course presents students with calculus-based probability concepts, and those concepts can be used to describe the uncertainties present in real applications. Topics include probability spaces, discrete and continuous random variables, transformations, expectations, generating functions, conditional distributions, the law of large numbers, and central limit theorems.",
     date: "Spring 2022",
     location: "Penn State University",
-  }
+  },
 ];
 const projects = [
   {
@@ -328,7 +341,7 @@ const projects = [
     ],
     image: topian,
     source_code_link: "https://github.com/davidsaldubehere/topian/",
-    asset: "headphones"
+    asset: "headphones",
   },
   {
     name: "AutoTyper",
@@ -350,7 +363,7 @@ const projects = [
     ],
     image: autotyper,
     source_code_link: "https://github.com/davidsaldubehere/auto-typer",
-    asset: "keyboard"
+    asset: "keyboard",
   },
   {
     name: "VR Cam",
@@ -372,7 +385,7 @@ const projects = [
     ],
     image: vrcam,
     source_code_link: "https://github.com/davidsaldubehere/vrCam",
-    asset: "raspberry"
+    asset: "raspberry",
   },
   {
     name: "3D Printing Club Mobile App",
@@ -393,9 +406,17 @@ const projects = [
       },
     ],
     image: app,
-    source_code_link: "https://github.com/davidsaldubehere/psu3dprintingappserver",
-    asset: "phone"
+    source_code_link:
+      "https://github.com/davidsaldubehere/psu3dprintingappfrontend/",
+    asset: "phone",
   },
 ];
 
-export { services, technologies, experiences, competitions, projects,coursework };
+export {
+  services,
+  technologies,
+  experiences,
+  competitions,
+  projects,
+  coursework,
+};
