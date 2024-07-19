@@ -22,12 +22,12 @@ import {
   tripguide,
   threejs,
   github,
-  topian,
+  georouter,
   vrcam,
   autotyper,
   psuwebdevclub,
   app,
-  langaginglab,
+  lab,
 } from "../assets";
 
 export const navLinks = [
@@ -141,16 +141,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Statistical Analysis Intern",
-    company_name: "Penn State Language and Aging Lab",
-    icon: langaginglab,
+    title: "Undergraduate Research Assistant",
+    company_name: "Almekkawy UIT Lab",
+    icon: lab,
     iconBg: "#FFFFFF",
-    date: "June 2023 - Present",
+    date: "January 2024 - Present",
     points: [
-      "Lab assistant at Penn State's Language and Aging Lab.",
-      "Will be parsing and analyzing MRI data using R to present conclusions for various studies.",
-      "Will be heavily utilizing network science to gain an understanding of the brain's functional connectivity.",
-      "Will be directly involved in the research process up to the publication of the study's findings.",
+      "Working on a thesis regarding the enhancement of U-Net models for semantic segmentation under Dr. Almekkawy.",
+      "Improvements include integrating vision transformer blocks and state space models (Mamba) to improve the range of features captured by the model.",
+      "Designed networks for use on medical imaging datasets with a focus on small sets of MRI and Ultrasound images.",
     ],
   },
   {
@@ -161,9 +160,9 @@ const experiences = [
     date: "May 2023 - Present",
     points: [
       "Software engineering intern at Penn State's Office of Research Information Systems.",
-      "Worked on a project to help improve the efficiency and flexibility of existing software used to manage all Penn State research labs.",
-      "Gained valuable experience with C# and Microsoft Server database technologies.",
-      "Visited labs to learn more about the equipment and the software used to manage it.",
+      "Developed a project to drastically reduce deployment time of software releases by adding the capability to hot-reload critical data in all production research applications used by Penn State researchers",
+      "Gained valuable experience with C#, SQL Server, Azure CI/CD, ASP .NET Webforms/MVC, and Visual Studio.",
+      "Learned how to secure and process large amounts of sensitive data via firewalls, Active Directory, and DB roles.",
     ],
   },
   {
@@ -174,11 +173,12 @@ const experiences = [
     date: "May 2023 - Present",
     points: [
       "Applications and Development intern at Sheetz.",
-      "Worked on a project to help monitor competitor pricing of various products.",
-      "Project is now in production and is being used by 900+ corporate and store employees.",
-      "Worked with a team of other interns and senior developers to complete the project.",
-      "Gained valuable experience with the Agile development process and technologies such as OpenShift, Java, Spring Boot, and various front-end technologies.",
+      "Worked on a project to help monitor competitor pricing of various convenience products.",
+      "Software is now in production and is being used by 1000+ corporate and store employees across the U.S.",
+      "Designed front-end UIs with React, Remix, Figma, Tailwind CSS, Bootstrap, and Material UI",
+      "Gained valuable experience with the Agile development process and technologies such as OpenShift, Docker, Kubernetes, Java, Spring Boot/MVC for the API backend, Hibernate, and GitLab",
       "Attended networking events to learn more about the company and the industry.",
+      "Ran penetration tests and patched security vulnerabilities such as XSS, CSRF, and SQL Injections with the Checkmarx security suite",
     ],
   },
 
@@ -193,7 +193,6 @@ const experiences = [
       "Graded exams and homework submissions for Penn State's University Park CMPSC 132 course sections.",
       "Provided feedback to students on their exam and homework submissions.",
       "Debugged student submissions to help them understand the concepts of the course.",
-      "In the process of becoming a Learning Assistant for the course's summer session.",
     ],
   },
   {
@@ -257,20 +256,6 @@ const competitions = [
 ];
 const coursework = [
   {
-    title: "CMPSC 131: Programming and Computation I",
-    description:
-      "This course introduces the fundamental concepts and processes of solving computational problems through the design, implementation, testing, and evaluation of efficient and robust computer programs. The concepts include basic computational constructs found in imperative, object-oriented, and functional programming languages such as iteration, conditionals, functions, recursion, and data types. ",
-    date: "Fall 2021",
-    location: "Penn State University",
-  },
-  {
-    title: "CMPSC 132: Programming and Computation II",
-    description:
-      "This course builds upon the foundations of programming and computation by introducing and studying the data structures and programming language features that support the design and construction of large-scale software systems. It introduces the foundations of object-oriented programming, the design and analysis of efficient algorithms using important data structures, and programming techniques that support reusable and modular program components, including data abstraction, polymorphism, and higher-order functions.",
-    date: "Fall 2021",
-    location: "Penn State University",
-  },
-  {
     title: "CMPSC 221: Object Oriented Programming",
     description:
       "The course covers advanced object-oriented principles and their application to web-based, net-centric computing. Major topics include virtual machines, intermediate code generation (Java-specific), graphical user interfaces (GUI) design, event handling, server-side programming with database queries, security, permissions, and file management concepts for client/server systems.",
@@ -278,60 +263,83 @@ const coursework = [
     location: "Penn State University",
   },
   {
-    title: "CMPSC 360: Discrete Mathematics",
+    title: "CMPSC 311: Systems Programming",
     description:
-      "This course covers discrete mathematics and the foundations for modern computer science. Major topics include sets, relations, logic, algorithms, graphs, finite state machines, and regular expressions.",
-    date: "Spring 2022",
+      "This course covers the principles of C systems programming in a Unix environment. Topics include shell scripting, file systems, processes, signals, inter-process communication, network programming, and memory management.",
+    date: "Fall 2022",
     location: "Penn State University",
   },
   {
-    title: "PHYS 211: General Physics: Mechanics",
+    title: "CMPSC 465: Data Structures and Algorithms",
     description:
-      "This course covers a calculus-based introduction to classical mechanics, including such topics as measurement, dimensional analysis, motion in one dimension, vectors, motion in 2 and 3 dimensions, relative and circular motion, force and dynamics, Newton's Laws, friction, kinetic energy, work, potential energy, energy conservation, systems of particles, center of mass and momentum calculations, elastic and inelastic collisions, rotation (moments of inertia), rolling motion, torque, angular momentum, static equilibrium, gravitational force and Kepler's laws, gravitational potential energy, oscillations, and waves (transverse and longitudinal, superposition of waves).",
-    date: "Spring 2022",
+      "This course covers the design and analysis of algorithms and data structures. Topics include algorithm analysis, sorting, searching, graph algorithms, and data structures such as heaps, hash tables, and trees.",
+    date: "Fall 2023",
     location: "Penn State University",
   },
   {
-    title: "PHYS 212: Electricity and Magnetism",
+    title: "CMPSC 497: Deep Learning for Computer Vision",
     description:
-      "This course covers a calculus-based introduction to classical electricity and magnetism, including such topics as, electric charge and electric fields, Gauss's law, electric potential, capacitance, current, resistance, circuits, magnetic fields, fields due to currents, induction and inductance, magnetism of matter, Maxwell's equations, and electromagnetic oscillations.",
-    date: "Spring 2022",
+      "This course covers the fundamentals of deep learning and its applications in computer vision. Topics include convolutional neural networks, recurrent neural networks, generative adversarial networks, transformers, classification, object detection, segmentation, and image generation.",
+    date: "Spring 2024",
     location: "Penn State University",
   },
   {
-    title: "MATH 230: Calculus and Vector Analysis",
+    title: "CMPSC 448: Machine Learning",
     description:
-      "This course covers three-dimensional analytic geometry, vectors in space, partial differentiation, double and triple integrals, and integral vector calculus.",
-    date: "Spring 2022",
+      "This course covers the fundamentals of machine learning and its applications in data analysis. Topics include linear regression, logistic regression, support vector machines, decision trees, random forests, k-means clustering, principal component analysis, and more.",
+    date: "Fall 2024",
     location: "Penn State University",
   },
   {
-    title: "MATH 220: Matrices",
+    title: "CMPEN 331: Computer Organization and Design",
     description:
-      "This course covers systems of linear equations, matrix algebra, eigenvalues and eigenvectors, and linear systems of differential equations.",
-    date: "Spring 2022",
+      "This course covers the fundamentals of computer organization and design. Topics include digital logic, assembly language programming, CPU components, memory hierarchy, pipelining, and extensive Verilog programming.",
+    date: "Spring 2024",
     location: "Penn State University",
   },
   {
     title: "MATH 414: Introduction to Probability Theory",
     description:
-      "This course is an introduction to the theory of probability for students in statistics, mathematics, engineering, computer science, and related fields. The course presents students with calculus-based probability concepts, and those concepts can be used to describe the uncertainties present in real applications. Topics include probability spaces, discrete and continuous random variables, transformations, expectations, generating functions, conditional distributions, the law of large numbers, and central limit theorems.",
+      "The course presents students with calculus-based probability concepts, and those concepts can be used to describe the uncertainties present in real applications. Topics include probability spaces, discrete and continuous random variables, transformations, expectations, generating functions, conditional distributions, the law of large numbers, and central limit theorems.",
     date: "Spring 2022",
     location: "Penn State University",
   },
 ];
 const projects = [
   {
-    name: "Topian",
+    name: "3D Printing Club Mobile App",
     description:
-      "I developed this free music streaming app with React Native, Flask, and various Python APIs. The React Native front-end is optimized for iOS and Android, and the back-end was deployed on Pythonanywhere's servers with Flask. The app is still being developed and is not yet available on the App Store.",
+      "I developed a mobile application for the Penn State 3D Printing Club to organize their 3D printers, schedule maintenance, and communicate with members. The app uses React Native for the front-end, and the back-end was developed with Django and MySQL. The app is now live on the App Store and the Play Store and is being used by club members",
     tags: [
       {
         name: "reactnative",
         color: "blue-text-gradient",
       },
       {
-        name: "flask",
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "django",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: app,
+    source_code_link:
+      "https://github.com/davidsaldubehere/psu3dprintingappfrontend/",
+    asset: "phone",
+  },
+  {
+    name: "GeoRouter",
+    description:
+      "GeoRouter is a python library that provides a highly customizable offline routing engine that allows users to find routes based on scenery and other typical navigation preferences. In addition, GeoRouter provides powerful tools for OSM (OpenStreetMap) and SRTM (Shuttle Radar Topography Mission) data manipulation and visualization. User's can easily get accurate elevation data by simply providing a latitude and longitude bounding box.",
+    tags: [
+      {
+        name: "graph theory",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "big data",
         color: "green-text-gradient",
       },
       {
@@ -339,8 +347,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: topian,
-    source_code_link: "https://github.com/davidsaldubehere/topian/",
+    image: georouter,
+    source_code_link: "https://github.com/davidsaldubehere/georouter/",
     asset: "headphones",
   },
   {
@@ -386,29 +394,6 @@ const projects = [
     image: vrcam,
     source_code_link: "https://github.com/davidsaldubehere/vrCam",
     asset: "raspberry",
-  },
-  {
-    name: "3D Printing Club Mobile App",
-    description:
-      "This is my most recent project. I have been developing a mobile application for the Penn State 3D Printing Club to manage their 3D printing services and communicate with members. The app is being developed with React Native, and the back-end is being developed with Django and MySQL. I plan to introduce the app to the club in the Fall of 2023.",
-    tags: [
-      {
-        name: "reactnative",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mysql",
-        color: "green-text-gradient",
-      },
-      {
-        name: "django",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: app,
-    source_code_link:
-      "https://github.com/davidsaldubehere/psu3dprintingappfrontend/",
-    asset: "phone",
   },
 ];
 

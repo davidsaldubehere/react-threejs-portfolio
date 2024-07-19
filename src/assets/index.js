@@ -24,7 +24,7 @@ import psu from "./psu.jpeg";
 import sheetz from "./sheetz.webp";
 import walmart from "./walmart.png";
 import vrcam from "./vrcam.jpeg";
-import topian from "./topian.jpeg";
+import georouter from "./georouter.png";
 import autotyper from "./autotyper.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -34,12 +34,12 @@ import profile from "./profile.jpeg";
 import resume from "./resume.png";
 import Resume from "./Resume.pdf";
 import psuwebdevclub from "./psuwebdevclub.jpeg";
-import langaginglab from "./langaginglab.png";
+import lab from "./lab.png";
 export {
-  langaginglab,
+  lab,
   psuwebdevclub,
   vrcam,
-  topian,
+  georouter,
   autotyper,
   logo,
   backend,
@@ -72,5 +72,5 @@ export {
   app,
   profile,
   resume,
-  Resume
+  Resume,
 };

@@ -5,29 +5,30 @@ import { OrbitControls, Preload, useGLTF, Float } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Headphones = () => {
-  const headphones = useGLTF("./headphones/scene.gltf");
+  const headphones = useGLTF("./graph/scene.gltf");
 
   return (
-    <Float speed={1.75} rotationIntensity={2} floatIntensity={3}>
-    <mesh>
-      <hemisphereLight intensity={3} groundColor='black' />
-      <spotLight
-        position={[0, 50, 10]}
-        angle={0.12}
-        penumbra={1}
-        intensity={3}
-        castShadow
-        shadow-mapSize={1024}
-      />
-      <pointLight intensity={5} />
-      <primitive
-        object={headphones.scene}
-        scale={0.007}
-        position={[0, -2, 0]}
-        rotation={[0,1.3,0]}
-      />
-    </mesh>
-  </Float>
+    <Float speed={1.75} rotationIntensity={10} floatIntensity={2}>
+      <mesh>
+        <hemisphereLight intensity={3} groundColor="green" />
+        <spotLight
+          position={[0, 50, 10]}
+          angle={0.12}
+          penumbra={1}
+          intensity={3}
+          castShadow
+          color={"#f0f0f0"}
+          shadow-mapSize={1024}
+        />
+        <pointLight intensity={1} />
+        <primitive
+          object={headphones.scene}
+          scale={0.1}
+          position={[0, -2, 0]}
+          rotation={[0, 1.3, 0]}
+        />
+      </mesh>
+    </Float>
   );
 };
 
@@ -40,12 +41,9 @@ const HeadphoneCanvas = () => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          enableZoom={false}
-        />
-        <Headphones/>
+        <OrbitControls enableZoom={false} />
+        <Headphones />
       </Suspense>
-
     </Canvas>
   );
 };

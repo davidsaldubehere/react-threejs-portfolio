@@ -1,0 +1,11 @@
+Model Information:
+* title:	K44 - Twist
+* source:	https://sketchfab.com/3d-models/k44-twist-8740d242606840608b0236b2c1a61791
+* author:	mathgrrl (https://sketchfab.com/mathgrrl)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "K44 - Twist" (https://sketchfab.com/3d-models/k44-twist-8740d242606840608b0236b2c1a61791) by mathgrrl (https://sketchfab.com/mathgrrl) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
